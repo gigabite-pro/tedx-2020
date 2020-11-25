@@ -252,6 +252,15 @@ top:5rem;
     color: #e62b1e;
 }
 
+.modal-content{
+    width: fit-content;
+    height: 39.38rem;
+}
+
+.modal-body{
+    padding: 0%;
+}
+
 
 @media (max-width: 576px){
     #navbarNav {
