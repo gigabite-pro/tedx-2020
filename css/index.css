@@ -207,7 +207,7 @@ left: 5rem;
 top: -1rem;
 }
 100% {
-top: 5rem;
+top: 6rem;
 }
 }
  @keyframes v-move {
@@ -215,7 +215,7 @@ top: 5rem;
 top: -1rem;
 }
 100% {
-top:5rem;
+top:6rem;
 }
 }
 .right, .left {
