@@ -80,7 +80,7 @@ nav {
 
 .card-head{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
@@ -107,6 +107,7 @@ nav {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-size: cover;
+    height: 15rem;
 }
 
 .card{
@@ -137,4 +138,8 @@ nav {
 .h-gap2{
     margin-right: -2.5rem;
     margin-left: -1.25rem;
+}
+
+.last{
+    margin-left: 3.8rem;
 }
