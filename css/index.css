@@ -117,6 +117,7 @@ nav {
     width: 4.6rem;
     height: 4.6rem;
     display: relative;
+    transition-duration: 500ms;
 }
 
 .first{
@@ -138,8 +139,12 @@ nav {
 
 .play:hover .first{
     transform: scale(15);
-    color: #e62b1e;
+    color:#971e15;
     visibility: hidden;
+}
+
+.play:hover{
+    background-color: #971e15;
 }
 
 .bar {
