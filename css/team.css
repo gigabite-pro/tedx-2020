@@ -72,16 +72,69 @@ nav {
   }
 /* nav */
 
-.container{
-    margin-top: 8rem;
-}
-
-.about-head{
+.team-head{
+    margin-top: 7rem;
     font-weight: 700;
     font-size: 2.6rem;
 }
 
-.about-content h3{
-    font-size: 1.2rem;
-    color: rgb(189, 186, 186);
+.card-head{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-desig{
+    font-size: 1rem;
+    color: grey;
+}
+
+.card-body{
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-subtitle{
+    margin-bottom: -0.4rem;
+}
+
+.card-title{
+    margin-top: -0.4rem;
+}
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+
+.card{
+    transform: scale(0.8);
+    background-color: black;
+    border-radius: 10px;
+}
+
+.icons{
+    font-size: 1.5rem;
+    margin-bottom: -0.4rem;
+}
+
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.gap{
+    margin-bottom: -4rem;
+}
+
+.h-gap1{
+    margin-left: -2.5rem;
+    margin-right: -1.25rem;
+}
+
+.h-gap2{
+    margin-right: -2.5rem;
+    margin-left: -1.25rem;
 }

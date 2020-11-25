@@ -17,7 +17,7 @@ body{
 /* nav */
 
 nav {
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: transparent;
     display: inline-block;
     height: 4rem;
   }
