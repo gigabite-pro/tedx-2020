@@ -160,15 +160,19 @@ nav {
     }
 
     .nav{
-        background-color: black;
+        background-color: #121212;
     }
 
     .nav-align{
         margin-left: 0rem;
     }
 
+    ul li a{
+        margin-left: 0.5rem;
+      }
+
     .gap{
-        margin-bottom: -4rem;
+        margin-bottom: -3rem;
     }
     
     .h-gap1{

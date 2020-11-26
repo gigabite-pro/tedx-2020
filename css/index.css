@@ -207,7 +207,7 @@ left: 5rem;
 top: -1rem;
 }
 100% {
-top: 6rem;
+top: 3rem;
 }
 }
  @keyframes v-move {
@@ -290,6 +290,10 @@ top:6rem;
     .nav-align{
         margin-left: 0rem;
     }
+
+    ul li a{
+        margin-left: 0.5rem;
+      }
 
     .main-head{
         font-size: 2.25rem;
