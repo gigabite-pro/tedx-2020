@@ -238,6 +238,12 @@ top:6rem;
     color: rgb(155, 148, 148);
 }
 
+.main .time{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: rgb(155, 148, 148);
+}
+
 .main-head span{
     color: #e62b1e;
 }
@@ -253,7 +259,7 @@ top:6rem;
 }
 
 .modal-content{
-    width: fit-content;
+    width: 70rem;
     height: 39.38rem;
 }
 
@@ -271,5 +277,53 @@ top:6rem;
 
     .nav-logo{
         margin-left: 0%;
+    }
+
+    .brand{
+        margin-left: 0rem;
+    }
+
+    .nav{
+        background-color: black;
+    }
+
+    .nav-align{
+        margin-left: 0rem;
+    }
+
+    .main-head{
+        font-size: 2.3rem;
+    }
+
+    .sub-head{
+        font-size: 1rem;
+    }
+
+    .main .date{
+        font-size: 1.4rem;
+    }
+    
+    .main .time{
+        font-size: 1.2rem;
+    }
+
+    .modal-content{
+        height: 15rem;
+        width: 100%;
+    }
+
+    .modal-body iframe{
+        height: 15rem;
+        width: 100%;
+    }
+
+    .box-outer{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .main_box{
+        width: 4rem;
+        height: 4rem;
     }
 }

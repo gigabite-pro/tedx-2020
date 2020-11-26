@@ -143,3 +143,51 @@ nav {
 .last{
     margin-left: 3.8rem;
 }
+
+@media (max-width: 576px){
+    #navbarNav {
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+
+
+    .nav-logo{
+        margin-left: 0%;
+    }
+
+    .brand{
+        margin-left: 0rem;
+    }
+
+    .nav{
+        background-color: black;
+    }
+
+    .nav-align{
+        margin-left: 0rem;
+    }
+
+    .gap{
+        margin-bottom: -4rem;
+    }
+    
+    .h-gap1{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    
+    .h-gap2{
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    
+    .last{
+        margin-left: 0rem;
+    }
+
+    .card{
+        margin: auto;
+    }
+
+
+}
