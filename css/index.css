@@ -311,6 +311,18 @@ top:6rem;
         font-size: 1.2rem;
     }
 
+    .first{
+        position: absolute;
+        top: 38%;
+        left: 38%;
+    }
+    
+    .second{
+        position: absolute;
+        top: 38%;
+        left: 38%;
+    }
+
     .modal-content{
         height: 15rem;
         width: 100%;
