@@ -72,6 +72,32 @@ ul li a:hover{
 }
 /* nav */
 
+h1{
+  font-size: 5rem; 
+  font-weight: 700; 
+  margin-top: 10rem;
+}
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+}
+
+footer a{
+  color: #16e16e
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+footer h6{
+  margin-bottom: 1rem;
+}
+
+
 @media (max-width: 576px){
   #navbarNav {
       margin-left: 0%;
@@ -105,6 +131,10 @@ ul li a:hover{
 
   ul li a{
     margin-left: 0.5rem;
+  }
+
+  h1{
+    font-size: 2rem;
   }
 
 }

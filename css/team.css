@@ -144,6 +144,20 @@ nav {
     margin-left: 3.8rem;
 }
 
+footer a{
+    color: #16e16e
+  }
+  
+  footer a:hover{
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer h6{
+    margin-bottom: 1rem;
+  }
+  
+
 @media (max-width: 576px){
     #navbarNav {
         margin-left: 0%;
