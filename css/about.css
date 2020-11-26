@@ -82,12 +82,26 @@ nav {
 }
 
 .about-content h3{
-    font-size: 1.05rem;
+    font-size: 1.07rem;
     color: rgb(189, 186, 186);
 }
 
 .about-content h3 span{
   color: #e62b1e;
+  font-weight: bold;
+}
+
+.collage-phone{
+  display: none;
+}
+
+.collage{
+  margin-top: 2.2rem;
+  width: 37rem;
+}
+
+.tedx-logo{
+  width: 37rem;
 }
 
 @media (max-width: 576px){
@@ -96,7 +110,6 @@ nav {
       margin-top: 1%;
       width: 100%;
   }
-
 
   .nav-logo{
       margin-left: 0%;
@@ -125,4 +138,24 @@ nav {
     margin-left: 0.5rem;
   }
 
+  .collage-laptop{
+    display: none;
+  }
+
+  .collage-phone{
+    display: inline;
+  }
+
+  .about-content h3{
+    font-size: 1rem;
+  }
+
+  .collage{
+    margin-top: 0rem;
+    width: 20rem;
+  }
+
+  .tedx-logo{
+    width: 20rem;
+  }
 }
