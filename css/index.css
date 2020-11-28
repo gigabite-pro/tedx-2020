@@ -96,6 +96,7 @@ nav {
     margin: auto;
     border-radius: 50%;
     animation: bounce 1000ms infinite;
+    transform-style: preserve-3d;
 }
 
 .icon::after,
@@ -160,6 +161,8 @@ nav {
     font-size: 5.5rem;
     font-weight: 900;
     letter-spacing: -3.3px;
+    transform-style: preserve-3d;
+    transform: translateZ(50%);
 }
 
 
@@ -168,6 +171,8 @@ nav {
     font-size: 2rem;
     font-weight: 900;
     color: rgb(155, 148, 148);
+    transform: translateZ(-200%);
+    transform-style: preserve-3d;
 }
 
 .main .time{

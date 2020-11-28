@@ -118,6 +118,10 @@ nav {
     padding: 0px;
 }
 
+.card:hover{
+    transform: scale(0.8);
+}
+
 .icons{
     font-size: 1.5rem;
     margin-bottom: -0.4rem;
