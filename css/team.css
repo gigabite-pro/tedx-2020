@@ -111,14 +111,9 @@ nav {
 }
 
 .card{
-    transform: scale(0.8);
     background-color: black;
     border-radius: 10px;
     padding: 0px;
-}
-
-.card:hover{
-    transform: scale(0.8);
 }
 
 .icons{

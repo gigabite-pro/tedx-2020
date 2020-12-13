@@ -72,15 +72,42 @@ ul li a:hover{
 }
 /* nav */
 
-h1{
-  font-size: 5rem; 
-  font-weight: 700; 
-  margin-top: 10rem;
+.container{
+  margin-top: 5rem;
+}
+
+.speaker-head{
+  font-weight: 700;
+  font-size: 2.6rem;
+}
+
+.card-img-top{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-size: cover;
+  height: 17rem;
+  margin: 0px;
+}
+
+.card{
+  background-color: black;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.card-head{
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.card-text{
+  color: rgb(189, 186, 186);
 }
 
 footer{
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0%;
 }
 
@@ -136,5 +163,9 @@ footer h6{
   h1{
     font-size: 2rem;
   }
+
+  .card{
+    margin: auto;
+}
 
 }
