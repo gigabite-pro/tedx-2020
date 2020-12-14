@@ -93,16 +93,42 @@ ul li a:hover{
   background-color: black;
   border-radius: 10px;
   padding: 0px;
+  height: 25rem;
 }
+
 
 .card-head{
   color: white;
   font-size: 1.3rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .card-text{
   color: rgb(189, 186, 186);
+}
+
+.moreText{
+  display: none;
+}
+
+.read-more-btn{
+  margin-top: -1rem;
+  margin-bottom: -0.5rem;
+  color: #e62b1e;
+  cursor: pointer;
+}
+
+.showMore .moreText{
+  display: inline;
+}
+
+.showMore .dots{
+  display: none;
+}
+
+.newHeight{
+  height: fit-content;
 }
 
 footer{
@@ -167,5 +193,11 @@ footer h6{
   .card{
     margin: auto;
 }
+
+  .card-text{
+    white-space: unset;
+    overflow: visible;
+    text-overflow: unset;
+  }
 
 }
