@@ -113,6 +113,7 @@ ul li a:hover{
 }
 
 .read-more-btn{
+  width: fit-content;
   margin-top: -1rem;
   margin-bottom: -0.5rem;
   color: #e62b1e;

@@ -58,3 +58,33 @@ aishBtn.addEventListener("click",(e)=>{
     }
 })
 
+const padmakaliBtn = document.querySelector('.padmakali-btn');
+const padmakalitext = document.querySelector('.padmakali');
+const padmakalicard = document.querySelector('.padmakali-card');
+
+
+padmakaliBtn.addEventListener("click",(e)=>{
+    padmakalitext.classList.toggle('showMore');
+    padmakalicard.classList.toggle('newHeight');
+    if(padmakaliBtn.innerText === 'Read More'){
+        padmakaliBtn.innerText = 'Read Less';
+    }else{
+        padmakaliBtn.innerText = 'Read More';
+    }
+})
+
+const padmajaBtn = document.querySelector('.padmaja-btn');
+const padmajatext = document.querySelector('.padmaja');
+const padmajacard = document.querySelector('.padmaja-card');
+
+
+padmajaBtn.addEventListener("click",(e)=>{
+    padmajatext.classList.toggle('showMore');
+    padmajacard.classList.toggle('newHeight');
+    if(padmajaBtn.innerText === 'Read More'){
+        padmjaiBtn.innerText = 'Read Less';
+    }else{
+        padmajaBtn.innerText = 'Read More';
+    }
+})
+
