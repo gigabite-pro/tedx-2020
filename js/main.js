@@ -82,9 +82,65 @@ padmajaBtn.addEventListener("click",(e)=>{
     padmajatext.classList.toggle('showMore');
     padmajacard.classList.toggle('newHeight');
     if(padmajaBtn.innerText === 'Read More'){
-        padmjaiBtn.innerText = 'Read Less';
+        padmajaBtn.innerText = 'Read Less';
     }else{
         padmajaBtn.innerText = 'Read More';
     }
 })
 
+const jeetBtn = document.querySelector('.jeet-btn');
+const jeettext = document.querySelector('.jeet');
+const jeetcard = document.querySelector('.jeet-card');
+
+
+jeetBtn.addEventListener("click",(e)=>{
+    jeettext.classList.toggle('showMore');
+    jeetcard.classList.toggle('newHeight');
+    if(jeetBtn.innerText === 'Read More'){
+        jeetBtn.innerText = 'Read Less';
+    }else{
+        jeetBtn.innerText = 'Read More';
+    }
+})
+
+const aditiBtn = document.querySelector('.aditi-btn');
+const adititext = document.querySelector('.aditi');
+const aditicard = document.querySelector('.aditi-card');
+
+aditiBtn.addEventListener("click",(e)=>{
+    adititext.classList.toggle('showMore');
+    aditicard.classList.toggle('newHeight');
+    if(aditiBtn.innerText === 'Read More'){
+        aditiBtn.innerText = 'Read Less';
+    }else{
+        aditiBtn.innerText = 'Read More';
+    }
+})
+
+const purvaBtn = document.querySelector('.purva-btn');
+const purvatext = document.querySelector('.purva');
+const purvacard = document.querySelector('.purva-card');
+
+purvaBtn.addEventListener("click",(e)=>{
+    purvatext.classList.toggle('showMore');
+    purvacard.classList.toggle('newHeight');
+    if(purvaBtn.innerText === 'Read More'){
+        purvaBtn.innerText = 'Read Less';
+    }else{
+        purvaBtn.innerText = 'Read More';
+    }
+})
+
+const biswaBtn = document.querySelector('.biswa-btn');
+const biswatext = document.querySelector('.biswa');
+const biswacard = document.querySelector('.biswa-card');
+
+biswaBtn.addEventListener("click",(e)=>{
+    biswatext.classList.toggle('showMore');
+    biswacard.classList.toggle('newHeight');
+    if(biswaBtn.innerText === 'Read More'){
+        biswaBtn.innerText = 'Read Less';
+    }else{
+        biswaBtn.innerText = 'Read More';
+    }
+})
