@@ -94,12 +94,20 @@ nav {
     width: 6rem;
     height: 6rem;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     animation: bounce 1000ms infinite;
     transform-style: preserve-3d;
+    background-color: #e62b1e;
 }
 
-.icon::after,
+.icon:hover{
+    background-color: #ff2616;
+    cursor: pointer;
+}
+
 .icon::before{
     content: "";
     position: absolute;
@@ -108,28 +116,8 @@ nav {
     left: 0;
     right: 0;
     border-radius: 50%;
-}
-
-.icon::before{
-    background-color: #e62b1e;
-    content: "\f04b";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 1.2rem;
-    display: grid;
-    place-items: center;
-    z-index: 10;
-    transition-duration: 300ms;
-    overflow: hidden;
-}
-
-.icon:hover::before{
-    background-color: #b3241a;
-}
-
-.icon::after{
     background-color: #e4493e;
-    z-index: 1;
+    z-index: -1;
     animation: pulse 1250ms infinite;
 }
 
